@@ -1,0 +1,39 @@
+body {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+
+h1 {
+    margin: 0;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #2980b9;
+    font-family: 'Noto Sans';
+    font-weight: bold;
+    text-shadow: 5px 5px 0 #EEE;
+}
+h1 .un {
+    font-family: 'Ubuntu';
+    text-transform: none;
+    font-size: 137px;
+}
+h1 .reverse {
+    display: inline-block;
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+p {
+    font-size: 24px;
+    color: #222;
+}
+header p {
+    font-size: 36px;
+}
+
+footer {
+    margin-top: 90px;
+    color: #999;
+}
